@@ -175,7 +175,7 @@ section{
 
 /*home*/
 #home{
-   background-image:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url("backgroundimg.jpg");
+   background-image:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url("background.jpg");
    background-size: cover;
    background-position: center;
    flex-direction:column;
@@ -322,6 +322,13 @@ footer{
     /* cart contents */
     .cart-content {
         width: 300px;
+    }
+    section{
+        width: 100%;
+        min-height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     /*home*/
     #home{
