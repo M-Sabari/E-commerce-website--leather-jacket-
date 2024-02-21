@@ -325,7 +325,7 @@ footer{
     }
     section{
         width: 100%;
-        min-height: 50vh;
+        height: fit-content;
         display: flex;
         justify-content: center;
         align-items: center;
