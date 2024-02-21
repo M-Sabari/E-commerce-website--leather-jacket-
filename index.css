@@ -212,6 +212,7 @@ font-family: 'Playfair Display', serif;
 #about h1{
     font-weight: 800;
     font-size: 50px;
+    text-align: center;
     color: #edeeef;
 }
 #about p{
@@ -285,6 +286,10 @@ font-family: 'Playfair Display', serif;
 #contact img{
     height: 100%;
 }
+.contactboxhead{
+    font-weight: bold;
+    text-align: center;
+}
 .box{
     width: 80% !important;
     margin-top: 10px;
@@ -312,4 +317,64 @@ footer{
     text-align: center;
     color:white;
     padding: 5px;
+}
+@media screen and (max-width:500px) {
+    /* cart contents */
+    .cart-content {
+        width: 300px;
+    }
+    /*home*/
+    #home{
+       background-image:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url("backgroundimg.jpg");
+       background-size: cover;
+       background-position: center;
+       flex-direction:column;
+    }
+    #home h1{
+    font-size: 35px;
+    letter-spacing: 2px;
+    }
+    #home p{   
+        font-size: 17px;
+    }
+    #home .input-group{
+        width: 300px;
+        height: 35px;
+    }
+    /*about us*/
+    #about h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    #about p{
+        color:white;
+        padding: 10px;
+    }
+    /*product*/
+    #products{
+        background: #ccc;
+    }
+    #products h1{
+        font-size: 40px;
+        letter-spacing: 1px;
+        font-weight: 700;
+    }
+    #products img{
+        width: 200px;
+        height: 200px;
+    }
+    .card{
+        margin: 20px auto;
+    }
+    /*contact*/
+    #contact{
+        padding: 20px !important;
+    }
+    #contact img{
+        height: 100%;
+        padding-bottom: 10px;
+    }
+    .box{
+        width: 90% !important;
+    }
 }
